@@ -7,7 +7,6 @@ import TwitterX from "./TwitterX";
 import { infos } from "@/constants";
 import Image from "next/image";
 import { useState } from "react";
-import { ContactModal } from "./contact-modal";
 
 export function ProfileCard() {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -38,7 +37,7 @@ export function ProfileCard() {
             {infos.shortBio}
           </p>
         </div>
-
+        {/* 
         <div className="mt-6">
           <Button
             className="w-full bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 text-white border-0"
@@ -46,7 +45,7 @@ export function ProfileCard() {
           >
             Contact Me
           </Button>
-        </div>
+        </div> */}
 
         <div className="flex justify-center space-x-4 mt-6">
           <a href={infos.github} target="_blank" rel="noopener noreferrer">
@@ -72,10 +71,6 @@ export function ProfileCard() {
           </a>
         </div>
       </CardContent>
-      <ContactModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
     </Card>
   );
 }

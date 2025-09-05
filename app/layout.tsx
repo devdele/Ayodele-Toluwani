@@ -15,36 +15,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Said MOUNAIM",
+  title: "Ayodele Toluwani - Portfolio",
   description:
-    "Said MOUNAIM - Full stack javaScript developer. Personal Website.",
+    "Ayodele Toluwani - Full stack javaScript developer. Personal Website.",
   icons: [
     {
       rel: "icon",
       type: "image/svg+xml",
-      url: "/favicon.svg",
+      url: "/Tolu.jpg",
       media: "(prefers-color-scheme: light)",
     },
     {
       rel: "icon",
       type: "image/svg+xml",
-      url: "/favicon-dark.svg",
+      url: "/Tolu.jpg",
       media: "(prefers-color-scheme: dark)",
     },
   ],
-  metadataBase: new URL("https://mounaim.dev"),
+  metadataBase: new URL("https://toluwani-portfolio.vercel.app/"),
   openGraph: {
-    title: "Said MOUNAIM - Portfolio",
+    title: "Ayodele Toluwani - Portfolio",
     description:
-      "Said MOUNAIM - Full stack javaScript developer. Personal Website.",
-    url: "https://mounaim.dev",
-    siteName: "Said MOUNAIM Portfolio",
+      "Ayodele Toluwani - Full stack javaScript developer. Personal Website.",
+    url: "https://toluwani-portfolio.vercel.app/",
+    siteName: "Ayodele Toluwani Portfolio",
     images: [
       {
-        url: "/og-image.png",
+        url: "/Tolu.jpg",
         width: 1200,
         height: 630,
-        alt: "Said MOUNAIM Portfolio",
+        alt: "Ayodele Toluwani Portfolio",
       },
     ],
     locale: "en_US",
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Said MOUNAIM - Portfolio",
+    title: "Ayodele Toluwani - Portfolio",
     description:
       "Full Stack JavaScript Developer showcasing projects and skills",
-    images: ["/og-image.png"],
-    creator: "@saidmounaim",
+
+    creator: "@toluwani_dev",
   },
   robots: {
     index: true,

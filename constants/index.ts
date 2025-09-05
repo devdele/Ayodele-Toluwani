@@ -1,51 +1,60 @@
 export const bio =
-  "My name is Said Mounaim, Passionate developer with experience in building responsive web applications using JavaScript, React.js, Next.js, Node.js, and various other libraries and frameworks.";
+  "My name is Ayodele Toluwani, Passionate developer with experience in building responsive web applications using JavaScript, React.js, Next.js, Node.js, and various other libraries and frameworks.";
 
 export const skills = [
-  { name: "Frontend", items: ["React", "Next.js", "Tailwind CSS"] },
-  { name: "Backend", items: ["Node.js", "Express", "Nest.js"] },
-  { name: "Database", items: ["MongoDB", "PostgreSQL", "MySQL"] },
-  { name: "CMS & Headless CMS", items: ["WordPress", "Strapi.js"] },
+  { name: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Bootstrap", ] },
+  { name: "Backend", items: ["Node.js", "Express"] },
+  { name: "Database", items: ["MongoDB", "Firebase", "MySQL"] },
+  { name: "Version Control", items: ["Git", "GitHub"] },
+  { name: "Other", items: ["ShadCN", "Tanstack React-Query", "Framer Motion", "Redux"] },
+
 ];
 
 export const projects = [
   {
-    title: "Resume Scan AI",
+    title: "TruxPoint",
     description:
-      "AI-powered Resume Analyzer using Next.js, Prisma, Inngest, AgentKit, and OpenAI.",
-    techs: ["Next.js", "OpenAI"],
-    link: "https://resume-scan-ai-seven.vercel.app/",
+      "A web3 landing page for a meme coin project built with Next.js, TailwindCSS, and Framer Motion.",
+    techs: ["Next.js", "TailwindCSS", "Framer Motion"],
+    link: "https://trux-nine.vercel.app/",
   },
   {
-    title: "AI Travel Planner",
+    title: "Student Feedback System",
     description:
-      "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Clerk.",
-    techs: ["Next.js", "OpenAI", "Clerk"],
-    link: "https://travelplan-sm.vercel.app/",
+      "A modern feedback collection system using next.js, tailwindcss, ShadCN UI and firebase.",
+    techs: ["Next.js", "Firebase"],
+    link: "https://student-feedback-project.vercel.app/",
   },
+  // {
+  //   title: "Link Loop",
+  //   description:
+  //     "Link Loop is a clean Linktree-style web app built with Next.js, Prisma, Better Auth, and ShadCN/UI.",
+  //   techs: ["Next.js", "Better Auth"],
+  //   link: "https://link-loop-share.vercel.app/",
+  // },
   {
-    title: "Link Loop",
+    title: "Portfolio Website",
     description:
-      "Link Loop is a clean Linktree-style web app built with Next.js, Prisma, Better Auth, and ShadCN/UI.",
-    techs: ["Next.js", "Better Auth"],
-    link: "https://link-loop-share.vercel.app/",
+      "A portfolio website built with Astro.js and TailwindCSS for a senior software engineer.",
+    techs: ["Astro.js", "TailwindCSS"],
+    link: "https://www.ojolowo.com/",
   },
-  {
-    title: "Club Marathon",
+   {
+    title: "Usmakoye",
     description:
-      "A dynamic and animated landing page for a running club, built with HTML5, CSS3, JavaScript, and GSAP for smooth scroll-based animations.",
-    techs: ["JavaScript", "GSAP"],
-    link: "https://clubmarathon.fr/",
+      "A landing page for a plumbing and construction company built with Next.js, shadCN and TailwindCSS.",
+    techs: ["Next.js", "shadCN", "TailwindCSS"],
+    link: "https://usmakoye-plumbing-services.vercel.app",
   },
 ];
 
 export const infos = {
-  fullName: "Said MOUNAIM",
+  fullName: "Ayodele Toluwani",
   status: "Full Stack JavaScript Developer",
   shortBio: "Passionate about building scalable web applications.",
-  avatar: "/avatar.png",
-  mail: "saidmounaim00@gmail.com",
-  linkedin: "https://www.linkedin.com/in/said-mounaim/",
-  x: "https://x.com/said_mounaim",
-  github: "https://github.com/saidMounaim",
+  avatar: "/Tolu.jpg",
+  mail: "ayodeletoluwani71@gmail.com",
+  linkedin: "https://www.linkedin.com/in/toluwani-ayodele-05699324a/",
+  x: "https://x.com/Toluwani_Dev",
+  github: "https://github.com/devdele",
 };
