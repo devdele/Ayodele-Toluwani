@@ -6,10 +6,8 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import TwitterX from "./TwitterX";
 import { infos } from "@/constants";
 import Image from "next/image";
-import { useState } from "react";
 
 export function ProfileCard() {
-  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const classNameButton =
     "text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-400";
   return (
