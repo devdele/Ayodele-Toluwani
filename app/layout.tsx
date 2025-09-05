@@ -32,12 +32,12 @@ export const metadata: Metadata = {
       media: "(prefers-color-scheme: dark)",
     },
   ],
-  metadataBase: new URL("https://toluwani-portfolio.vercel.app/"),
+  metadataBase: new URL("https://ayodele-toluwani.vercel.app/"),
   openGraph: {
     title: "Ayodele Toluwani - Portfolio",
     description:
       "Ayodele Toluwani - Full stack javaScript developer. Personal Website.",
-    url: "https://toluwani-portfolio.vercel.app/",
+    url: "https://ayodele-toluwani.vercel.app/",
     siteName: "Ayodele Toluwani Portfolio",
     images: [
       {
