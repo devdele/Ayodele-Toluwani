@@ -3,7 +3,7 @@ export const bio =
 
 export const skills = [
   { name: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Bootstrap", ] },
-  { name: "Backend", items: ["Node.js", "Express"] },
+  { name: "Backend", items: ["Node.js", "Express", "PHP", "Python"] },
   { name: "Database", items: ["MongoDB", "Firebase", "MySQL"] },
   { name: "Version Control", items: ["Git", "GitHub"] },
   { name: "Other", items: ["ShadCN", "Tanstack React-Query", "Framer Motion", "Redux"] },
@@ -45,6 +45,13 @@ export const projects = [
       "A landing page for a plumbing and construction company built with Next.js, shadCN and TailwindCSS.",
     techs: ["Next.js", "shadCN", "TailwindCSS"],
     link: "https://usmakoye-plumbing-services.vercel.app",
+  },
+    {
+    title: "Lensconnect",
+    description:
+      "A startup company that connects Photographers and Clients built with Next.js, shadCN and TailwindCSS.",
+    techs: ["Next.js", "shadCN", "TailwindCSS"],
+    link: "https://lensconnectwaitlist.vercel.app",
   },
 ];
 
